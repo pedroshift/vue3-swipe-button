@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import swipeButton from './swipeButton.vue'
 
-createApp(App).mount('#app')
+createApp(swipeButton).mount('#app')
