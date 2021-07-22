@@ -1,5 +1,5 @@
 <template>
-  <div id="swipe-button" class="button button-blue swipe-button">
+  <div id="swipe-button" class="button swipe-button">
     <span>{{ text }}</span>
 
     <div id="swiper">
@@ -20,6 +20,12 @@ export default {
       type: String,
       default: 'Swipe me :)'
     },
+
+    color: {
+      required: false,
+      type: String,
+      default: '#0271C2'
+    },
   },
 
   emits: ['submit'],
@@ -31,7 +37,7 @@ export default {
       const touchableElement = document.getElementById('swiper');
       const touchableInitialState = (buttonWidth * -1) + 55;
 
-
+      buttonElement.style.backgroundColor = `${props.color}`;
       touchableElement.style.width = `${buttonWidth}px`;
       touchableElement.style.marginLeft = `${touchableInitialState}px`;
 
@@ -99,7 +105,6 @@ html, body {
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
   color: #FFFFFF;
-  background-color: #0271C2;
 }
 
 .swipe-button {

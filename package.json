@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prezadoshift/vue3-swipe-button.git"
+    "url": "git+https://github.com/pedroshift/vue3-swipe-button.git"
   },
   "browserslist": [
     "> 1%",
