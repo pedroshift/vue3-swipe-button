@@ -23,21 +23,22 @@ import 'vue3-swipe-button/dist/swipeButton.css'
 
 #### Props
 
-**title**
-type: string
-required: false
+**title**<br>
+type: string<br>
+required: false<br>
 default: "Swipe me :)"
 
-**color**
-type: string
-required: false
-default: "#0271C2"
+<br><br>
+**color**<br>
+type: string<br>
+required: false<br>
+default: "#0271C2"<br>
 
 
 #### Events
 
-**submit**
-Triggered when full swipe to right
+**submit**<br>
+Triggered when full swipe to right<br>
 
 #### Example
 ```
