@@ -1,13 +1,14 @@
 {
   "name": "vue3-swipe-button",
-  "description": "## Project setup ``` npm install ```",
-  "version": "0.1.0",
+  "description": "Swipe Button for Vue3",
+  "version": "0.1.1",
   "author": "Pedro Martins <prezadoshift@gmail.com>",
-  "main": "dist/js/app.js",
-  "style": "dist/css/app.css",
+  "main": "dist/swipeButton.common.js",
+  "style": "dist/swipeButton.css",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build:docs": "vue-cli-service build --dest docs",
+    "build:component": "vue-cli-service build --target lib --name swipeButton src/swipeButton.vue --dest dist"
   },
   "dependencies": {
     "vue": "^3.0.0"
@@ -18,10 +19,14 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prezadoshift/vue3-swipe-button.git"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead"
   ],
-  "license": "MIT",
+  "license": "MIT"
 }
