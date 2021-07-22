@@ -87,6 +87,13 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "0a91":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "8875":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -172,13 +179,6 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ "8ae7":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "8bbf":
 /***/ (function(module, exports) {
 
@@ -186,12 +186,12 @@ module.exports = require("vue");
 
 /***/ }),
 
-/***/ "e534":
+/***/ "d9c5":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_36a7cbe2_lang_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8ae7");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_36a7cbe2_lang_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_36a7cbe2_lang_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_2857fc2c_lang_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("0a91");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_2857fc2c_lang_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_2857fc2c_lang_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
 
 
@@ -231,12 +231,12 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 
-// CONCATENATED MODULE: ./node_modules/vue-loader-v16/dist/templateLoader.js??ref--5!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/swipeButton.vue?vue&type=template&id=36a7cbe2
+// CONCATENATED MODULE: ./node_modules/vue-loader-v16/dist/templateLoader.js??ref--5!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/swipeButton.vue?vue&type=template&id=2857fc2c
 
 
 const _hoisted_1 = {
   id: "swipe-button",
-  class: "button button-blue swipe-button"
+  class: "button swipe-button"
 }
 const _hoisted_2 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createVNode"])("div", { id: "swiper" }, [
   /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createVNode"])("span", null, ">>>")
@@ -248,7 +248,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _hoisted_2
   ]))
 }
-// CONCATENATED MODULE: ./src/swipeButton.vue?vue&type=template&id=36a7cbe2
+// CONCATENATED MODULE: ./src/swipeButton.vue?vue&type=template&id=2857fc2c
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/swipeButton.vue?vue&type=script&lang=js
 
@@ -263,6 +263,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       type: String,
       default: 'Swipe me :)'
     },
+
+    color: {
+      required: false,
+      type: String,
+      default: '#0271C2'
+    },
   },
 
   emits: ['submit'],
@@ -274,7 +280,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       const touchableElement = document.getElementById('swiper');
       const touchableInitialState = (buttonWidth * -1) + 55;
 
-
+      buttonElement.style.backgroundColor = `${props.color}`;
       touchableElement.style.width = `${buttonWidth}px`;
       touchableElement.style.marginLeft = `${touchableInitialState}px`;
 
@@ -327,8 +333,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 // CONCATENATED MODULE: ./src/swipeButton.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/swipeButton.vue?vue&type=style&index=0&id=36a7cbe2&lang=scss
-var swipeButtonvue_type_style_index_0_id_36a7cbe2_lang_scss = __webpack_require__("e534");
+// EXTERNAL MODULE: ./src/swipeButton.vue?vue&type=style&index=0&id=2857fc2c&lang=scss
+var swipeButtonvue_type_style_index_0_id_2857fc2c_lang_scss = __webpack_require__("d9c5");
 
 // CONCATENATED MODULE: ./src/swipeButton.vue
 
