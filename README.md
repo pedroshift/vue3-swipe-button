@@ -2,6 +2,8 @@
 This component simulates the iOS animation of swipe a button from left to right to confirm an action.
 Currently, supports only mobile devices (touch screens).
 
+![Demo](https://raw.githubusercontent.com/pedroshift/vue3-swipe-button/main/vue3-swipe-button.gif)
+
 ## Install
 ```
 npm install vue3-swipe-button
