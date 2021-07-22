@@ -5,6 +5,7 @@
   "author": "Pedro Martins <prezadoshift@gmail.com>",
   "main": "dist/swipeButton.common.js",
   "style": "dist/swipeButton.css",
+  "homepage": "https://pedroshift.github.io/vue3-swipe-button",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:docs": "vue-cli-service build --dest docs",
