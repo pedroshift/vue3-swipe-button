@@ -4,7 +4,8 @@
         :style="{ backgroundColor: color }">
     <span>{{ text }}</span>
 
-    <div id="swiper">
+    <div id="swiper"
+         :class="{'shake' : shakeAnimation}">
       <span>>>></span>
     </div>
   </div>
@@ -27,6 +28,12 @@ export default {
       required: false,
       type: String,
       default: '#0271C2'
+    },
+
+    shakeAnimation: {
+      required: false,
+      type: Boolean,
+      default: false,
     },
   },
 
@@ -140,5 +147,21 @@ html, body {
       padding-right: 12px;
     }
   }
+}
+
+// SHAKE
+.shake {
+  animation: shake;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { left: 0; }
+  4% { left: 8px; }
+  8% { left: 0; }
+  12% { left: 8px; }
+  16% { left: 0; }
 }
 </style>

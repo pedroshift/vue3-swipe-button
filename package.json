@@ -1,7 +1,7 @@
 {
   "name": "vue3-swipe-button",
   "description": "Swipe Button for Vue3",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Pedro Martins <prezadoshift@gmail.com>",
   "main": "dist/swipeButton.common.js",
   "style": "dist/swipeButton.css",

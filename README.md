@@ -24,10 +24,11 @@ import 'vue3-swipe-button/dist/swipeButton.css'
 ```
 
 #### Props
-Name       | Type    | Required | Default     | 
------------|---------|----------|-------------|
-title      | string  | false    | Swipe me :) |
-color      | string  | false    | #0271C2     |
+Name                    | Type     | Required   | Default     | 
+------------------------|----------|------------|-------------|
+title                   | string   | no         | Swipe me :) |
+color                   | string   | no         | #0271C2     |
+shake-animation         | boolean  | no         | false       |
 
 #### Events
 Name       | Trigger    |  
@@ -38,6 +39,7 @@ submit     | Full swipe to right
 ```
 <template>
     <swipeButton text="Confirm Payment"
+                 shake-animation="true"
                  :color="getButtonColor"
                  @submit="actionMethod" />
 </template>
