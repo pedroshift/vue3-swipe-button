@@ -43,18 +43,21 @@ submit     | Full swipe to right
 </template>
 
 <script>
-import swipeButton from 'vue3-swipe-button'
-import 'vue3-swipe-button/dist/swipeButton.css'
+import { ref, computed } from 'vue';
+import swipeButton from 'vue3-swipe-button';
+import 'vue3-swipe-button/dist/swipeButton.css';
 
 export default {
   components: { swipeButton },
 
   setup() {
-    const actionMethod = () => {
-      console.log('Uhuul... Payment Success');
-    };
+    const show = ref(false);
+    
+    const getButtonColor = computed(() => show.value ? 'purple' : 'green');
+    
+    const actionMethod = () => show.value = !show.value;
 
-    return { actionMethod };
+    return { actionMethod, getButtonColor };
   },
 }
 </script>                 

@@ -1,5 +1,7 @@
 <template>
-  <div id="swipe-button" class="button swipe-button">
+  <div id="swipe-button"
+       class="button swipe-button"
+        :style="{ backgroundColor: color }">
     <span>{{ text }}</span>
 
     <div id="swiper">
@@ -37,7 +39,6 @@ export default {
       const touchableElement = document.getElementById('swiper');
       const touchableInitialState = (buttonWidth * -1) + 55;
 
-      buttonElement.style.backgroundColor = `${props.color}`;
       touchableElement.style.width = `${buttonWidth}px`;
       touchableElement.style.marginLeft = `${touchableInitialState}px`;
 

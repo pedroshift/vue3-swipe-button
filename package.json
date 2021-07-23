@@ -1,7 +1,7 @@
 {
   "name": "vue3-swipe-button",
   "description": "Swipe Button for Vue3",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "author": "Pedro Martins <prezadoshift@gmail.com>",
   "main": "dist/swipeButton.common.js",
   "style": "dist/swipeButton.css",
@@ -11,6 +11,9 @@
     "build:docs": "vue-cli-service build --dest docs",
     "build:component": "vue-cli-service build --target lib --name swipeButton src/swipeButton.vue --dest dist"
   },
+  "files": [
+    "dist/**"
+  ],
   "dependencies": {
     "vue": "^3.0.0"
   },
