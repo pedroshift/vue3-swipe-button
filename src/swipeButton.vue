@@ -6,7 +6,9 @@
 
     <div id="swiper"
          :class="{'shake' : shakeAnimation}">
-      <span>>>></span>
+      <div id="swiper-selector">
+        <img src="./assets/chevron-swipe-arrow.svg" alt="" />
+      </div>
     </div>
   </div>
 </template>
@@ -141,10 +143,19 @@ html, body {
     left: 0;
     top: 0;
 
-    span {
-      font-size: 15px;
-      font-weight: bold;
-      padding-right: 12px;
+    #swiper-selector {
+      width: 55px;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+
+      img {
+        max-width: 25px;
+        max-height: 19px;
+      }
     }
   }
 }

@@ -67,4 +67,5 @@ export default {
 
 ### Customizations
 `#swipe-button` for button style <br>
-`#swiper` for swipe trigger style
+`#swiper` for swipe bar style <br>
+`#swiper-selector` for swipe trigger style
