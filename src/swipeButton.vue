@@ -53,17 +53,25 @@ export default {
 
       let reachEnd = false;
 
-      function handleTouchStart() {
-        document.addEventListener('touchmove', handleTouchMove);
+      function handleTouchStart(e) {
+        e.preventDefault();
+
+        if (e.targetTouches.length > 1) {
+          return false;
+        }
+
+        document.addEventListener('touchmove', handleTouchMove, { passive: false });
       }
 
-      function handleTouchEnd() {
+      function handleTouchEnd(e) {
+        e.preventDefault();
         handleGesture(reachEnd, touchableInitialState, touchableElement);
 
         document.removeEventListener('touchmove', handleTouchMove);
       }
 
       function handleTouchMove(e) {
+        e.preventDefault();
         let movingPos =  e.changedTouches[0].pageX - 55;
         let endPos = buttonWidth - 55;
 
@@ -80,6 +88,7 @@ export default {
 
       touchableElement.addEventListener('touchstart', handleTouchStart, false);
       touchableElement.addEventListener('touchend', handleTouchEnd, false);
+      touchableElement.addEventListener('touchcancel', handleTouchEnd, false);
     });
 
     function handleGesture(reachEnd, touchableInitialState, touchableElement) {

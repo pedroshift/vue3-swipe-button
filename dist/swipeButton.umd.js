@@ -96,21 +96,21 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
-/***/ "5be1":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_df8890a4_lang_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("5d0f");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_df8890a4_lang_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_df8890a4_lang_scss__WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
-/***/ "5d0f":
+/***/ "056d":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "1c05":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_507dcfc0_lang_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("056d");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_507dcfc0_lang_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_swipeButton_vue_vue_type_style_index_0_id_507dcfc0_lang_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
 
 /***/ }),
 
@@ -251,7 +251,7 @@ var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 var chevron_swipe_arrow = __webpack_require__("6beb");
 var chevron_swipe_arrow_default = /*#__PURE__*/__webpack_require__.n(chevron_swipe_arrow);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader-v16/dist/templateLoader.js??ref--5!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/swipeButton.vue?vue&type=template&id=df8890a4
+// CONCATENATED MODULE: ./node_modules/vue-loader-v16/dist/templateLoader.js??ref--5!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/swipeButton.vue?vue&type=template&id=507dcfc0
 
 
 
@@ -278,7 +278,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     ], 2)
   ], 4))
 }
-// CONCATENATED MODULE: ./src/swipeButton.vue?vue&type=template&id=df8890a4
+// CONCATENATED MODULE: ./src/swipeButton.vue?vue&type=template&id=507dcfc0
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/swipeButton.vue?vue&type=script&lang=js
 
@@ -321,17 +321,25 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
       let reachEnd = false;
 
-      function handleTouchStart() {
-        document.addEventListener('touchmove', handleTouchMove);
+      function handleTouchStart(e) {
+        e.preventDefault();
+
+        if (e.targetTouches.length > 1) {
+          return false;
+        }
+
+        document.addEventListener('touchmove', handleTouchMove, { passive: false });
       }
 
-      function handleTouchEnd() {
+      function handleTouchEnd(e) {
+        e.preventDefault();
         handleGesture(reachEnd, touchableInitialState, touchableElement);
 
         document.removeEventListener('touchmove', handleTouchMove);
       }
 
       function handleTouchMove(e) {
+        e.preventDefault();
         let movingPos =  e.changedTouches[0].pageX - 55;
         let endPos = buttonWidth - 55;
 
@@ -348,6 +356,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
       touchableElement.addEventListener('touchstart', handleTouchStart, false);
       touchableElement.addEventListener('touchend', handleTouchEnd, false);
+      touchableElement.addEventListener('touchcancel', handleTouchEnd, false);
     });
 
     function handleGesture(reachEnd, touchableInitialState, touchableElement) {
@@ -368,8 +377,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 // CONCATENATED MODULE: ./src/swipeButton.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/swipeButton.vue?vue&type=style&index=0&id=df8890a4&lang=scss
-var swipeButtonvue_type_style_index_0_id_df8890a4_lang_scss = __webpack_require__("5be1");
+// EXTERNAL MODULE: ./src/swipeButton.vue?vue&type=style&index=0&id=507dcfc0&lang=scss
+var swipeButtonvue_type_style_index_0_id_507dcfc0_lang_scss = __webpack_require__("1c05");
 
 // CONCATENATED MODULE: ./src/swipeButton.vue
 
